@@ -2,17 +2,20 @@ html {
     font-size: 24px;
     margin-left: 1rem;
     margin-right: 1rem;
+    background-color: midnightblue;
+    color: white;
 }
 
 h1 {
     font-size: 4rem;
+    font-weight: bold;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     width: 100%;
 }
 
@@ -21,4 +24,28 @@ header li {
     list-style-type: none;
     padding-left: 1.2rem;
     font-size: 1.5rem;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+.about-me {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.about-me img {
+    height: 35rem;
+    width: auto;
+}
+
+.container {
+    margin-left: 2rem;
 }
