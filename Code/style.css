@@ -49,3 +49,16 @@ a:hover {
 .container {
     margin-left: 2rem;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 4rem;
+    border-top: 1px solid white;
+}
+
+footer li {
+    display: inline-flex;
+    list-style-type: none;
+}
