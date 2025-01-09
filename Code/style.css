@@ -1,4 +1,4 @@
-/* Macro stuff */
+/* MACRO STUFF */
 
 * {
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 html {
-    font-size: 24px;
+    font-size: 25px;
     scroll-behavior: smooth;
 }
 
@@ -15,7 +15,7 @@ body {
     color: white;
 }
 
-/* Header, title and nav */
+/* HEADER, TITLE AND NAV */
 
 h1 {
     font-size: 4rem;
@@ -60,13 +60,26 @@ a:hover {
     display: none;
 }
 
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
 /* ABOUT ME SECTION */
 
 .about-me {
     display: flex;
-    margin-top: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin: 2rem 7rem;
+    align-items: center;
 }
 
 .about-me img {
@@ -78,7 +91,11 @@ a:hover {
     margin-left: 2rem;
 }
 
-/* Footer */
+/* PROJECTS SECTION */
+
+/* CONTACT SECTION */
+
+/* FOOTER SECTION */
 
 footer {
     display: flex;
@@ -94,3 +111,5 @@ footer ul {
     justify-content: space-around;
     gap: 2.5rem;
 }
+
+/* MEDIA QUERIES SECTION */
