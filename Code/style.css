@@ -58,7 +58,8 @@ footer {
     border-top: 1px solid white;
 }
 
-footer li {
-    display: inline-flex;
+footer ul {
+    display: flex;
     list-style-type: none;
+    justify-content: space-around;
 }
