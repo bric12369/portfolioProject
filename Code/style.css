@@ -1,8 +1,9 @@
-/* MACRO STUFF */
+/* MACRO STUFF */  
 
 * {
     padding: 0;
     margin: 0;
+    font-family: Manrope, serif;
 }
 
 html {
@@ -124,9 +125,14 @@ button:active {
 
 /* PROJECTS SECTION */
 
+#projects {
+    background-color: rgb(7, 0, 46);
+}
+
 h3 {
     font-size: 2.5rem;
     font-weight: bold;
+    padding-left: 2rem;
 }
 
 .project-container {
@@ -137,7 +143,7 @@ h3 {
     padding: 1rem 0;
 }
 
-.project-container p {
+.project-text-container {
     border: solid 1px white;
     border-radius: 12px;
     padding: 1rem;
@@ -146,6 +152,7 @@ h3 {
 .project-image {
     height: 20rem;
     width: auto;
+    border-radius: 12px;
 }
 
 /* CONTACT SECTION */
