@@ -6,7 +6,7 @@
 }
 
 html {
-    font-size: 25px;
+    font-size: 26px;
     scroll-behavior: smooth;
 }
 
@@ -22,8 +22,16 @@ h1 {
     font-weight: bold;
 }
 
+.title {
+    padding-bottom: 1rem;
+}
+
 h1:hover {
     cursor: default;
+}
+
+header h2 {
+    font-size: 3rem;
 }
 
 header, .header-links {
