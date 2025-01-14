@@ -43,6 +43,10 @@ header, .header-links {
     display: flex;
 }
 
+#desktop-nav {
+    display: contents;
+}
+
 header {
     justify-content: space-around;
     align-items: center;
@@ -192,3 +196,13 @@ footer ul {
 }
 
 /* MEDIA QUERIES SECTION */
+
+@media only screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+}
