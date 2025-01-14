@@ -98,6 +98,7 @@ a:hover {
 .about-me img {
     height: 35rem;
     width: auto;
+    border-radius: 12px;
 }
 
 .container {
@@ -132,13 +133,17 @@ button:active {
 h3 {
     font-size: 2.5rem;
     font-weight: bold;
-    padding-left: 2rem;
+    padding-left: 3rem;
+}
+
+h4 {
+    font-size: 1.5rem;
 }
 
 .project-container {
     height: 20rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 1rem 0;
 }
@@ -147,14 +152,16 @@ h3 {
     border: solid 1px white;
     border-radius: 12px;
     padding: 1rem;
+    height: 11rem;
+    width: 17rem;
 }
 
 .project-image {
     height: 20rem;
     width: auto;
     border-radius: 12px;
+    padding: 2rem;
 }
-
 /* CONTACT SECTION */
 
 .contact {
@@ -175,7 +182,6 @@ footer {
     align-items: center;
     justify-content: space-around;
     height: 7vh;
-    background-color: rgb(7, 0, 46);
 }
 
 footer ul {
