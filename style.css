@@ -439,7 +439,7 @@ footer ul {
     }
 
     p {
-        font-size: 0.4rem;
+        font-size: 0.5rem;
     }
 
     .contact-container img {
@@ -456,6 +456,7 @@ footer ul {
 }
 
 @media only screen and (max-width: 480px) {
+
     section {
         padding: 0.5rem;
     }
@@ -485,12 +486,14 @@ footer ul {
     }
 
     p {
-        font-size: 0.5rem;
+        font-size: 0.4rem;
+        line-height: 0.5rem;
     }
 
     button {
         font-size: 0.5rem;
         margin-top: 0.2rem;
+        padding: 5px 10px;
     }
 
     .contact-container img {
